@@ -1,0 +1,203 @@
+three SIT Flushes.  
+control panel.  Water will be sucked into the SIT.  Repeat this for a total of 
+iv.  While holding the FACS tube, select “SIT Flush” from the Acquisition 
+get into the bottom of the loading port. 
+Water should surround the bottom part of the metal SIP, but do not let it 
+iii.  Hold the FACS tube up to the sample port, but DO NOT click it into place.  
+tube. 
+ii.  Fill a FACS tube with filtered DI water to within ½-inch of the top of the 
+and open the default experiment.     
+i.  Go to the “Experiment” menu on the left side of the screen (top button) 
+e. Clean system with DI water. 
+click “Continue.”   
+v.  After 30 minutes, load a tube of 3mL DI water onto the sample port and 
+iv.  Let the flow cell soak in Contrad for 30 minutes before proceeding. 
+iii.  Load 3mL 30% Contrad onto the sample port and click “Continue.” 
+ii.  Click “Clean Flow Cell.” 
+button.)   
+i.  Select the “Cytometer” menu on the left side of the screen (bottom 
+minutes. 
+d. While the optical bench warms up, soak the flow cell with 30% Contrad for 30 
+c. The optical bench needs 45 minutes to warm up prior to QC.   
+indicator in the bottom right corner of the screen will turn green. 
+filter, and calibrating the SIT height.  Once this is completed, the “Cytometer” 
+b. The Aurora will go through its startup routine checking valves, purging the sheath 
+a. Open the Acquisition menu. 
+4. Cytometer warm up and cleaning 
+b. Login with your individual or lab’s login.  
+a. The power button is located on the left hand side of the instrument. 
+3. Turn on the Aurora, open SpectroFlo software and login 
+and after changing the box, to ensure cleanliness. 
+other than the probe holder. Ethanol your gloves and the holder before 
+i.  When changing the sheath be careful not to touch the probe to anything 
+b. Sheath (DI Water) should be over ⅓ full.  
+a. Waste should have 1L bleach and be less than half full when you start.  
+2. Check the fluidics 
+found is on the bottom right corner. 
+c. The computer should always be left on, but the power button for the monitor itself 
+b. Password: Welcome#1 
+a. Username: My Aurora 
+1. Login to Windows: 
+ 
+Start Up 
+ 
+ 
+UC Davis FCSR - Aurora User Guide
+----------------Page (0) Break----------------
+each single color control.    
+v.  Optional: if using a universal negative, assign the appropriate type to 
+iv.  Enter Lot information for your reagents (recommended, but optional) 
+iii.  Add the “Label” for each control (i.e. CD3, TNFa, Viability etc.) 
+ii.  Select the “Control Type” (beads or cells) for each single color control.   
+way as the experimental samples. 
+unstained control needs to be of the same type and prepared in the same 
+i.  Select the control type (cells or beads) for the unstained control. The 
+reference controls. 
+a. Select “Reference Group” to create a group for tubes that will be used as 
+5. Create your Reference and Experimental Groups 
+c. Check that you have added all of your tags and click “Next.” 
+b. Double click the appropriate tag to add it to the selected list to the right. 
+exciting laser. 
+the options in the panel below.  Fluorescent tags are grouped by the primary 
+a. Start typing the names into the search box on the top right corner to start to filter 
+4. Select all fluorescent tags used in the experiment.  
+3. Enter an experiment name. 
+2. Click “New” and a setup wizard will guide you through the process. 
+1. Return to the Acquisition Menu 
+ 
+ 
+Experiment Setup
+ 
+beads if you were reusing an old tube. 
+another drop of beads to the freshly made tube or make a new tube of 
+is likely to fail.  If the event rate is too low, click abort and either add 
+i.  Check to see that the event rate is above 100 events/sec.  If it is not, QC 
+e. Select the correct bead lot from the drop down menu and press start. 
+d. Load the QC beads onto the sample port. 
+vortex. 
+iii.  Vortex bead bottle well and then squeeze 1 full drop into the tube and 
+ii.  Using the syringe filtered DI water, add 300-500uL of water 
+i.  Write the bead lot and date on a new tube. 
+c. Preparing QC Beads: 
+week, you can use it for QC.  Otherwise, prepare new beads. 
+i.  If there is already a prepared tube in the box and the date is within a 
+b. QC beads are located in a labeled box next door in the cold room. 
+screen.  
+a. Navigate to the QC& Setup Menu in the blue ribbon at the top right corner of the 
+5. Run QC & Setup 
+vi.  Click stop and proceed to QC & Setup 
+event rate to fall below 10 events/second.   
+v.  Run filtered DI water for 10 to 15 minutes on high.  You are looking for the 
+----------------Page (1) Break----------------
+iv.  Stop acquisition.   
+iii.  The threshold can be adjusted in the “Threshold” tab as needed. 
+ii.  In the “Gain” tab, adjust FSC and SSC gains to put your cells on scale.   
+record 
+i.  In the “Signal” tab, select which area, height and width parameters to 
+c. In the Instrument Control Panel: 
+not record yet. 
+b. In the Acquisition Control panel, with flow rate on “low” start acquiring data, do 
+sample onto the sample port. 
+a. Select your unstained sample in the reference control group.  Vortex and load 
+1. Define Instrument Settings 
+ 
+Sample Acquisition & Data Export 
+ 
+8. Click Save and Open to open the new experiment. 
+f.  Click next. 
+i.  Alternatively, if desired, you can stop acquisition by volume or time. 
+e. Select the number of events in the stopping gate to record.   
+than “All Events” for the storage gate.   
+ii.  Please check with the Flow Core staff before you select anything other 
+gate will not be recorded! 
+i.  This is what data will be recorded in your FCS file, anything not in this 
+d. Select storage gate (in alm ost all cases, this should be “All Events.”) 
+c. Select the stopping gate (ex: All events or  P1) 
+without needing to scroll.]   
+ii.  Popular: HyperCompact v3 (Raw) [puts all histograms on the screen 
+i.  Default: “Default Raw Worksheet (Raw) 
+b. Select the acquisition worksheet 
+ii.  If you have previously defined assay settings, select those. 
+(Admin).” 
+i.  If this is a new experiment, use the default “Cytek Assay Settings 
+a. Select the “Experiment User Setting” 
+7. Set up Acquisition parameters 
+c. Click next 
+b. Don’t skip this step as this is what will provide axis labels in FlowJo. 
+a. This can be done at the experiment or group level. 
+6. In the “Markers” tab, type in labels for each fluorescent tag.   
+ii.  Click next when finished. 
+i.  FCS files will be named with the “Tube” name only. 
+“Tube” buttons. 
+b. Create groups for your samples and add tubes by selecting “Group” and/or 
+vi.  Click “Save” 
+“Define Universal Negative Control(s)” at the top of the window. 
+1. If needed, add additional negative controls by checking the 
+----------------Page (2) Break----------------
+to your lab. 
+d. Use a flash drive, external hard drive or UC Davis Box to transfer your data back 
+Lab Folder.” 
+c. Export your data first to the computer: Data (D:) > User Data and Exports > “Your 
+b. Click on the experiment name and select export. 
+a. Select “My Experiments” in the Acquisition menu 
+7. To export your data: 
+6. Click Save in the experiment window and close out of the experiment. 
+worksheet ribbon. 
+5. Save any raw or unmixed worksheets for future experiments using the disk icons in the 
+gating strategy.   
+during acquisition.  Use the tools in the ribbon on top of the worksheet to create a 
+a. After unmixing, you can create an unmixed worksheet to view the unmixed data 
+4. Acquire and record all experimental samples.   
+e. When finished, select “Live Unmix” to return to the experiment.   
+selected.  
+●  Confirm the spectral signatures are correct for the fluorescent tag 
+variation in your signal, the better the unmixing calculation. 
+up the rainbow boxes in the spectral signature.  The lower the 
+●  Gate on the “brightest of the bright” population.  This will tighten 
+if needed. 
+●  Aim for at least 1,000-2,000 positive events.  Record more events 
+ii.  Define the positive and negative populations. 
+i.  Place the P1 gate around the appropriate population (cells or beads.) 
+d. For each control: 
+(autofluorescence) extraction. 
+c. In the bottom right corner select the “Unmixing Model” either with or without AF 
+b. Check that all unstained and single color control samples are listed. 
+in the Experiment window will become live.  Click “Unmix” to open the wizard. 
+a. Once you have acquired all reference control group samples, the “Unmix” button 
+3. Perform Spectral Unmixing. 
+running your experiment samples.  Best practice is to run everything on “low.”   
+2. Acquire and record all reference control group samples at the same rate that you plan on 
+“Save As” button to save the settings for future experiments. 
+vi.  Once you have your instrument control settings set, you can click the 
+percentage across all detectors. 
+the “All Channels %” to decrease the gains by the same 
+●   If you have a fluorescent protein that cannot be titrated, then use 
+you titrate your reagents (especially viability dyes.)  
+●  If your fluorescent signals are off scale, it is recommended that 
+maintained to produce appropriate spectral signatures.  
+detectors.  The relationships between each detector must be 
+●  Note: Do not change gains for individual fluorescent 
+v.  Check all single color controls to make sure their signals are on scale. 
+----------------Page (3) Break----------------
+ 
+ 
+Version 8/31/26 AF 
+ 
+ 
+ 
+cytometer database and user data that occurs on nights and weekends.   
+5. Please leave the computer on.  The FCSR has an automated backup system for the 
+4. Exit SpectroFlo. 
+3. Turn off the cytometer. 
+2. Make sure there is water in the tube covering the bottom of the sample line 
+d. 3mL DI water 
+c. 3mL 30% contrad 
+b. 3mL DI water 
+a. 3mL of 10% bleach 
+cause issues with QC. 
+prompts. Make sure the cleaning solutions are not touching the metal SIP as this can 
+1. Using the left hand toolbar, select “Cytometer” then "Fluidics Shutdown” and follow the 
+ 
+Shutdown 
+ 
+----------------Page (4) Break----------------
