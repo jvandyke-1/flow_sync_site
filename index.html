@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/flow_sync_site/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="App to track user cleaning, issues, and usage for FCSR flow cytometers and communicate instrument issues with staff.">
+  <meta name="theme-color" content="#0F172A">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="fcsr_flow_sync">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>FCSR Flow Sync</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <script>
+    // Safeguard 1: Request Persistent Storage from the browser to protect IndexedDB / Hive data from eviction
+    if (navigator.storage && navigator.storage.persist) {
+      navigator.storage.persist().then(function(granted) {
+        if (granted) {
+          console.log("[FCSR Storage] Persistent storage granted by browser.");
+        } else {
+          console.log("[FCSR Storage] Persistent storage not granted; standard browser quota applies.");
+        }
+      });
+    }
+  </script>
+
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
